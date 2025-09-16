@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-container">
+            <div class="header-content">
+                <nav id="nav">
+                    <div class="nav-logo">
+                        <img src="./src/assets/images/logo.svg" alt="Logo de la cafetería">
+                    </div>
+                    <ul class="menu-nav">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./proceso.html">Proceso</a></li>
+                        <li><a href="./menu.html">Menú</a></li>
+                        <li><a href="./galeria.html">Galeria</a></li>
+                        <li><a href="./contacto.html" aria-current="page">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="bg-hero-contacto">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Mejores granos, mejor cafe</h1>
+            </div>
+        </div>
+    </section>
+
+    <main id="main" class="main-container">
+        <section id="contacto">
+            <h2><span>Reserva tu</span>Mesa</h2>
+            <div class="contacto-container">
+                <div class="contacto-content">
+                    <form class="contacto-form">
+                        <div class="field">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" placeholder="Tú nombre">
+                        </div>
+                        <div class="field">
+                            <label for="nombre">Email:</label>
+                            <input type="email" id="nombre" placeholder="Tú email">
+                        </div>
+                        <div class="field">
+                            <label for="">Número de Personas:</label>
+                            <select>
+                                <option value="" disabled selected>--Selecione--</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="más">+4</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="hora">Hora:</label>
+                            <input type="time" id="hora">
+                        </div>
+                        <div class="field">
+                            <label for="fecha">Hora:</label>
+                            <input type="date" id="fecha">
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-box ubicacion">
+                    <h3>ubicacion</h3>
+                    <p>Nicolas Copernico 5990</p>
+                    <p>Guadalajara, Jalisco</p>
+                </div>
+                <div class="footer-box reservacion">
+                    <h3>Reservación</h3>
+                    <p>Tel. 3850-9012</p>
+                    <a href="tel:+38509102">Llamar</a>
+                </div>
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lun-Jue: 11:00 - 22:00</p>
+                    <p>Vie-Sab: 09:00 - 24:00</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+    </footer>
+</body>
+
+</html>

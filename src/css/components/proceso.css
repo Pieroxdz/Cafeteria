@@ -1,0 +1,40 @@
+.proceso {
+    margin-bottom: 5rem;
+}
+
+.proceso:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .proceso {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .proceso-text,
+    .proceso-image {
+        flex: 1;
+    }
+
+    .proceso:nth-child(even) .proceso-text {
+        /* Asi empuja a l siguient ehijo y se muestra en el sgte orden que es 1 */
+        order: -1;
+    }
+
+}
+
+
+.proceso-text h3 {
+    color: var(--primary);
+    text-align: left;
+}
+
+.proceso-text h3::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: var(--secondary);
+}

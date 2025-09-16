@@ -1,0 +1,15 @@
+@import url(./base/global.css);
+@import url(./components/header.css);
+@import url(./components/hero.css);
+@import url(./components/main.css);
+@import url(./components/about.css);
+@import url(./components/icons.css);
+@import url(./components/gallery.css);
+@import url(./components/ourMenu.css);
+@import url(./components/testimonials.css);
+/* PAGES */
+@import url(./components/nosotros.css);
+@import url(./components/proceso.css);
+@import url(./components/menu.css);
+@import url(./components/contacto.css);
+@import url(./components/footer.css);

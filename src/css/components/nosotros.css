@@ -1,0 +1,33 @@
+.about-content-II {}
+
+@media (min-width: 768px) {
+    .about-content-II {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+.about-image-II {
+    margin-bottom: 5rem;
+}
+
+.about-image-II img {
+    transform: rotate(-6deg);
+    border: 3rem solid var(--white);
+    box-shadow: 9px 10px 5px -7px rgb(0 0 0 / .35);
+}
+
+@media (min-width: 768px) {
+    .about-image-II {
+        margin: 0 2rem 0 0;
+    }
+}
+
+.about-text-II {}
+
+.about-text-II blockquote {
+    padding: 1rem;
+    border-left: .5rem solid var(--primary);
+    font-size: 2rem;
+}

@@ -1,0 +1,24 @@
+#icons {
+    margin-top: 5rem;
+}
+
+.icon img {
+    width: 12rem;
+    margin: 0 auto;
+}
+
+.icon p {
+    font-family: var(--fuente-cursiva);
+    font-size: 3.2rem;
+    color: var(--primary);
+    text-align: center;
+    margin: 3.2rem 0;
+}
+
+@media (min-width: 768px) {
+    .icons-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5rem;
+    }
+}

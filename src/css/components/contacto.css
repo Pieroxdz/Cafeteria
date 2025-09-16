@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    .contacto-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+        background-image: url(../../assets/images/granos_cafe.jpg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 40%;
+    }
+}
+
+.contacto-form .field {
+    margin-bottom: 2rem;
+}
+
+.contacto-form .field:last-of-type {
+    margin-bottom: 0rem;
+}
+
+.field label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    padding: 1rem;
+    border: .5rem solid var(--primary);
+}
+
+button {
+    background-color: var(--primary);
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+}
